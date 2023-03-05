@@ -1,140 +1,132 @@
 <!DOCTYPE html>
-	<html lang="en">
-	
-		<!-- HEAD -->
-			<head>
-				<title>Aquarium World</title>
-				<meta charset="utf-8">
-				<style>
-				.center {
+<html lang="en">
+
+	<head>
+		<title>Aquarium World - Your Ultimate Guide to Aquariums</title>
+		<meta charset="utf-8">
+		<style>
+			.center {
 				text-align: center;
-				}
-				</style>
-			</head>
-		<!-- END HEAD-->
-		
-		<!-- BODY -->
-			<body>
-				
-				<!-- H1 -->
-				<div id="home">
-					<div class="center"><h1>Aquarium World</h1></div>
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div id="home">
+				<div class="center">
+					<h1>Aquarium World</h1>
+					<p>Your Ultimate Guide to Aquariums</p>
 				</div>
-				<!-- H1 -->
-				
-				<!-- NAV -->
-				<div>
-					<div>
-						<nav class="center">
-							<a href="#home" id="link"><li>HOME</li></a>
-							<a href="#tutorial"><li>TUTORIAL</li></a>
-							<a href="#gallery"><li>GALLERY</li></a>
-							<a href="#contact"><li>CONTACT</li></a>
-						</nav>
-					</div>
-				</div>
-				<!-- END NAV -->
-				
-				<!-- VIDEO -->
-				<div id="tutorial">
-					<h2 class="center">Tutorial</h2>
-					<p><div class="center">How to set up a new aquarium?<br>
-					Watch this short video and then do it!</div></p>
-					<div>
-					<div class="center"><iframe width="560" height="315"
-					src="https://www.youtube.com/embed/vIApulWcVE8"></iframe></div>
-					</div>
-				</div>
-				<!-- END VIDEO -->
-				
-				<!-- GALLERY -->
-				<section>
-				<div class="center" id="gallery">
+			</div>
+		</header>
+		<!-- END HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav class="center">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#tutorial">Tutorial</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<!-- END NAVIGATION -->
+
+		<!-- TUTORIAL SECTION -->
+		<section id="tutorial">
+			<h2 class="center">Tutorial</h2>
+			<p class="center">
+				Learn how to set up a new aquarium with our step-by-step video tutorial.
+			</p>
+			<div class="center">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/vIApulWcVE8"></iframe>
+			</div>
+		</section>
+		<!-- END TUTORIAL SECTION -->
+
+		<!-- GALLERY SECTION -->
+		<section id="gallery">
+			<div class="center">
 				<h2>Gallery</h2>
-						
-						<!-- PHOTO CONTAINER 1 -->
+				<p>
+					Check out some of the amazing aquariums created by our community.
+				</p>
+
+				<div class="photo-container">
 					<div>
-						<div>
-							<h3>Ghost Shrimp</h3>
-							<div>
-								<img src="./Images/thumbnail_1.png" width=560px alt="">
-							</div>
-						</div>
+						<h3>Ghost Shrimp</h3>
+						<img src="./Images/thumbnail_1.png" alt="">
 					</div>
-					<!-- END PHOTO CONTAINER 1 -->
-					
-					<!-- PHOTO CONTAINER 2 -->
 					<div>
-						<div>
-							<h3>Blue Velvet Shrimp</h3>
-							<div>
-								<img src="./Images/thumbnail_2.png" width=560px  alt="">
-							</div>
-						</div>
+						<h3>Blue Velvet Shrimp</h3>
+						<img src="./Images/thumbnail_2.png" alt="">
 					</div>
-					<!-- END PHOTO CONTAINER 2 -->
-					
-					<!-- PHOTO CONTAINER 3 -->
 					<div>
-						<div>
-							<h3>Cherry Shrimp</h3>
-							<div>
-								<img src="./Images/thumbnail_3.png" width=560px  alt="">
-							</div>
-						</div>
+						<h3>Cherry Shrimp</h3>
+						<img src="./Images/thumbnail_3.png" alt="">
 					</div>
-					<!-- END PHOTO CONTAINER 3 -->
-					
-					<!-- PHOTO CONTAINER 4 -->
 					<div>
-						<div>
-							<h3>Amano Shrimp</h3>
-							<div>
-								<img src="./Images/thumbnail_4.png" width=560px  alt="">
-							</div>
-						</div>
+						<h3>Amano Shrimp</h3>
+						<img src="./Images/thumbnail_4.png" alt="">
 					</div>
-					<!-- END PHOTO CONTAINER 4 -->
-					
-					<!-- PHOTO CONTAINER 5 -->
 					<div>
-						<div>
-							<h3>Blue Bolt Shrimp</h3>
-							<div>
-								<img src="./Images/thumbnail_5.png" width=560px  alt="">
-							</div>
-						</div>
+						<h3>Blue Bolt Shrimp</h3>
+						<img src="./Images/thumbnail_5.png" alt="">
 					</div>
-					<!-- END PHOTO CONTAINER 5 -->
 				</div>
-				</section>
-					
-				<!-- END GALLERY -->
-				
-				<!-- CONTACT -->
-				<br>
-					<form action="" method="get" class="contact-form">
-						<div class="center" class="contact-form" id="contact">
-							<label for="name">Enter your name: </label>
-							<input type="text" name="name" id="name" required>
-						</div>
-						<div class="center" class="contact-form">
-							<label for="email">Enter your email: </label>
-							<input type="email" name="email" id="email" required>
-						</div>
-						<br>
-						<div class="center" class="contact-form">
-							<input type="submit" value="Contact Us">
-						</div>
-					</form>
-				<!-- END CONTACT -->
-				
-			</body>
-		<!-- END BODY -->
-		
-		<!-- FOOTER -->
-		<footer>
-				<div class="center"><p>&copy; 2023 Aquarium World</p></div>
-		</footer>
-		<!-- END FOOTER -->
-	</html>
+			</div>
+		</section>
+		<!-- END GALLERY SECTION -->
+
+		<!-- CONTACT SECTION -->
+		<section id="contact">
+			<div class="center">
+				<h2>Contact Us</h2>
+				<p>
+					If you have any questions or feedback, please fill out the form below and we'll get back to you as
+					soon as
+					possible.
+				</p>
+				<form action="" method="get" class="contact-form">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" required>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" required></textarea>
+					</div>
+					<div class="center">
+						<input type="submit" value="Submit">
+					</div>
+				</form>
+
+			</div>
+		</section>
+		<!-- END CONTACT SECTION -->
+
+
+
+
+
+
+		<!-- END CONTACT -->
+
+	</body>
+	<!-- END BODY -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="center">
+			<p>&copy; 2023 Aquarium World</p>
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+</html>
