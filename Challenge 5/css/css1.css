@@ -1,0 +1,146 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index:2;
+}
+
+.navbar a{
+    float: center;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: navy;
+    color: white;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+
+.img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    border-radius: 15px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.toptr {
+    background-color: green;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    
+}
+
+p:hover {
+    background-color: yellow;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container2 {
+    position:relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    opacity: 1;
+    display:block;
+    width:100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: trasnlate(-50%, -50%);
+    text-align: center;
+}
+
+.container2:hover .image {
+    opacity:0.3;
+}
+
+.container2:hover .middle {
+    opacity:1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color:white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.videocon {
+    position: relative;
+    text-align: center;
+    color: navy;
+}
+
+.video {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videotext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
