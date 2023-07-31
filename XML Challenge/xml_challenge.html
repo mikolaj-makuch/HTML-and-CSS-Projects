@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Food = "<food>" +
+                "<name>Egg</name>" +
+                "<proteins>12.6g</proteins>" +
+                "<fat>9g</fat>" +
+                "<kcal>131kcal</kcal>" +
+                "</food>";
+
+            //creates an EML DOM parser
+            XML_Parser = new DOMParser();
+
+            //creates a new XML DOM object using the text string
+            XML_Document = XML_Parser.parseFromString(Food,"text/xml");
+
+            document.getElementById("XML_Example").innerHTML =
+            XML_Document.getElementsByTagName("kcal") [0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
